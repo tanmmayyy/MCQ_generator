@@ -1,0 +1,25 @@
+# Virtual environment
+myenv/
+venv/
+env/
+
+# Model files (too large for GitHub)
+models/
+*.bin
+*.pt
+*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "topic": "ISRO",
+    "text": "The Indian Space Research Organisation (ISRO) was founded in 1969 by Vikram Sarabhai. It is headquartered in Bengaluru, Karnataka. ISRO developed India's first satellite, Aryabhata, which was launched in 1975. The Chandrayaan-1 mission in 2008 discovered water molecules on the Moon. In 2023, Chandrayaan-3 successfully landed near the lunar south pole, making India the fourth country to achieve a Moon landing. The Mars Orbiter Mission, also called Mangalyaan, was launched in 2013 and made India the first Asian country to reach Martian orbit."
+  },
+  {
+    "id": 2,
+    "topic": "Photosynthesis",
+    "text": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy stored in glucose. It takes place primarily in the chloroplasts of plant cells, which contain a green pigment called chlorophyll. The overall equation for photosynthesis is: carbon dioxide plus water, in the presence of light, produces glucose and oxygen. Photosynthesis has two main stages: the light-dependent reactions and the Calvin cycle. The light-dependent reactions occur in the thylakoid membranes, while the Calvin cycle takes place in the stroma."
+  },
+  {
+    "id": 3,
+    "topic": "Mahatma Gandhi",
+    "text": "Mahatma Gandhi was born on October 2, 1869, in Porbandar, Gujarat, India. He studied law in London and later worked as a lawyer in South Africa, where he first developed his method of nonviolent resistance called Satyagraha. Returning to India in 1915, Gandhi became a leading figure in the Indian independence movement against British rule. He led major campaigns such as the Non-Cooperation Movement in 1920 and the Salt March in 1930. Gandhi was assassinated on January 30, 1948, by Nathuram Godse. He is widely regarded as the Father of the Nation in India."
+  },
+  {
+    "id": 4,
+    "topic": "Artificial Intelligence",
+    "text": "Artificial intelligence is the simulation of human intelligence processes by computer systems. Machine learning is a subset of AI that enables systems to learn from data without being explicitly programmed. Deep learning, a subset of machine learning, uses neural networks with many layers to analyse patterns in data. Natural language processing allows computers to understand and generate human language. AI applications include image recognition, speech recognition, autonomous vehicles, and medical diagnosis. The term artificial intelligence was coined by John McCarthy in 1956 at the Dartmouth Conference."
+  },
+  {
+    "id": 5,
+    "topic": "Water Cycle",
+    "text": "The water cycle, also known as the hydrological cycle, describes the continuous movement of water on, above, and below the Earth's surface. The main processes involved are evaporation, condensation, precipitation, and collection. Evaporation occurs when water from oceans, lakes, and rivers is heated by the sun and turns into water vapour. This vapour rises into the atmosphere and cools, forming clouds through condensation. When clouds become heavy enough, water falls back to Earth as precipitation in the form of rain, snow, or hail. The water then collects in oceans, rivers, and groundwater, and the cycle begins again."
+  }
+]
