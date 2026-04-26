@@ -17,6 +17,26 @@ print(f"[INFO] Loading QG model: {QG_MODEL_NAME} ...")
 import warnings
 warnings.filterwarnings("ignore")   # suppress HuggingFace FutureWarnings
 
+
+@st.cache_resource
+def load_model():
+    tokenizer = AutoTokenizer.from_pretrained(QG_MODEL_NAME, use_fast=False)
+    model     = T5ForConditionalGeneration.from_pretrained(QG_MODEL_NAME)
+    model.eval()
+    return tokenizer, model
+
+tokenizer, qg_model = load_model()
+
+
+
+
+
+
+
+
+
+
+
 try:
     qg_pipeline = pipeline(
         "text2text-generation",

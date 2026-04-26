@@ -26,6 +26,20 @@ from app.components  import render_question_card, render_result_card, render_sco
 #  PAGE CONFIG — must be first Streamlit call
 # ─────────────────────────────────────────────
 
+
+
+#cache
+
+import streamlit as st
+
+@st.cache_resource
+def load_pipeline():
+    from src.mcq_builder import build_quiz
+    return build_quiz
+
+build_quiz = load_pipeline()
+
+
 st.set_page_config(
     page_title = APP_TITLE,
     page_icon  = APP_ICON,

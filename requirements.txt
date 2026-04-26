@@ -1,23 +1,9 @@
-# MCQ Generator — Python dependencies
-# Install with: pip install -r requirements.txt
-
-# ── Core NLP ──────────────────────────────────
-spacy==3.7.4
-nltk==3.8.1
-
-# ── Transformers (T5 for question generation) ─
-transformers==4.38.2
-torch==2.2.1          # CPU version — change to torch==2.2.1+cu118 for GPU
-
-# ── Word Embeddings ───────────────────────────
-gensim==4.3.2         # Word2Vec / GloVe loading
-
-# ── ML utilities ─────────────────────────────
-scikit-learn==1.4.1.post1   # TF-IDF vectorizer
-numpy==1.26.4
-
-# ── UI ────────────────────────────────────────
-streamlit==1.33.0
-
-# ── Utilities ─────────────────────────────────
-pandas==2.2.1         # Useful for data inspection in notebooks
+streamlit
+torch
+transformers
+sentencepiece
+nltk
+scikit-learn
+numpy
+gensim
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
